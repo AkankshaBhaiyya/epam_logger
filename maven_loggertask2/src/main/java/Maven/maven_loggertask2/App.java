@@ -9,17 +9,17 @@ class App
 	{
 		Scanner sc=new Scanner(System.in);
 		final Logger LOGGER = LogManager.getLogger(App.class);
-		LOGGER.debug("Menu for Material standards : ");
-		LOGGER.debug("1->Standard Materials");
-		LOGGER.debug("2->Above Standard Materials");
-		LOGGER.debug("3->High Standard Materials");
-		LOGGER.debug("4->High Standard Materials and fully automated home");
-		LOGGER.debug("Enter your choice");
+		LOGGER.info("Menu for Material standards : ");
+		LOGGER.info("1->Standard Materials");
+		LOGGER.info("2->Above Standard Materials");
+		LOGGER.info("3->High Standard Materials");
+		LOGGER.info("4->High Standard Materials and fully automated home");
+		LOGGER.info("Enter your choice");
 		int choice = sc.nextInt();
-		LOGGER.debug("Enter total area of house(square feets)");
+		LOGGER.info("Enter total area of house(square feets)");
 		float area=sc.nextFloat();
 		EstimateConstructionCost object=new EstimateConstructionCost();
 		double result=object.calculateCost(choice,area);
-		LOGGER.debug("Total cost : "+result);
+		LOGGER.info("Total cost : "+result);
 	}
 }
