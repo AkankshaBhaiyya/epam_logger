@@ -15,3 +15,11 @@
 2020-02-23 00:03:29 DEBUG App:17 -Enter your choice
 2020-02-23 00:03:33 DEBUG App:19 -Enter total area of house(square feets)
 2020-02-23 00:03:37 DEBUG App:23 -Total cost : 24000.0
+2020-02-24 22:25:40 INFO  App:12 -Menu for Material standards : 
+2020-02-24 22:25:40 INFO  App:13 -1->Standard Materials
+2020-02-24 22:25:40 INFO  App:14 -2->Above Standard Materials
+2020-02-24 22:25:40 INFO  App:15 -3->High Standard Materials
+2020-02-24 22:25:40 INFO  App:16 -4->High Standard Materials and fully automated home
+2020-02-24 22:25:40 INFO  App:17 -Enter your choice
+2020-02-24 22:25:49 INFO  App:19 -Enter total area of house(square feets)
+2020-02-24 22:25:51 INFO  App:23 -Total cost : 3600.0
